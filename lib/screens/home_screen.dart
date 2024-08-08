@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
-  List Categories = ['pothos', 'areca', 'pots','gift'];
+  List Categories = ['zamioculcas', 'areca', 'pots','gift'];
 
-  List indoor = ['areca', 'pothos', 'snake', 'monstera'];
+  List indoor = ['plam', 'zamioculcas', 'snake', 'monstera'];
 
   List Pots = ['Pots', 'pot1', 'pot2', 'pot3'];
 
@@ -132,7 +132,7 @@ class HomeScreen extends StatelessWidget {
             //   padding: EdgeInsets.symmetric(vertical: 6, horizontal: 10),
             //   child: ClipRRect(
             //     borderRadius: BorderRadius.circular(15),
-            //     child: Image.asset("assets/banner.jpg"),
+            //     child: Image.asset("assets/banner2.jpg"),
             //   ),
             // ),
 
@@ -177,7 +177,7 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image.asset(
-                          "assets/${Categories[index]}.png",
+                          "assets/${Categories[index]}.jpg",
                           width: 80,
                           height: 80,
                         ),
@@ -233,7 +233,7 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image.asset(
-                          "assets/${Pots[index]}.png",
+                          "assets/${[index]}.jpg",
                           width: 80,
                           height: 80,
                         ),
